@@ -4,7 +4,7 @@ project(2019_minge)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-add_executable(2019_minge main.cpp SDL2_DxLib.cpp SDL2_DxLib.h )
+add_executable(2019_minge main.cpp SDL2_DxLib.cpp SDL2_DxLib.h SceneMgr.cpp SceneMgr.h Menu.cpp Menu.h preferense.h Shoot.cpp Shoot.h CheckKey.cpp CheckKey.h)
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 

@@ -5,10 +5,12 @@
 #include "Shoot.h"
 #include "preferense.h"
 #include"SDL2_DxLib.h"
+#include "CheckKey.h"
+
 using namespace preferense;
 
 void Shoot::Update(){
-    if(CheckHitKey(KEY_INPUT_1)){
+    if (checkKey.CheckHitKey(KEY_INPUT_1)) {
         this->mSceneChanger->ChangeScene(eScene_Menu);
     }
 }

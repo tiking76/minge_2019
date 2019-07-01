@@ -7,7 +7,7 @@
 #include "Shoot.h"
 
 
-SceneMgr::SceneMgr() :mNextScene(eScene_None) {
+SceneMgr::SceneMgr() : mNextScene(eScene_None) {
     mScene = (BaseScene *) new Menu(this);
 }
 
@@ -19,16 +19,16 @@ void SceneMgr::Initialize() {
     this->mScene->Initialize();
 }
 
-void SceneMgr::Update(){
-    if(mNextScene!=eScene_None){
+void SceneMgr::Update() {
+    if (mNextScene != eScene_None) {
         this->mScene->Finalize();
         delete mScene;
-        switch(mNextScene){
+        switch (mNextScene) {
             case eScene_Menu:
-                mScene = (BaseScene *)new Menu(this);
+                mScene = (BaseScene *) new Menu(this);
                 break;
             case eScene_Shoot:
-                mScene = (BaseScene *)new Shoot(this);
+                mScene = (BaseScene *) new Shoot(this);
                 break;
             case eScene_None:
                 break;

@@ -1,6 +1,7 @@
 #include"SDL2_DxLib.h"
 #include"preferense.h"
 #include"SceneMgr.h"
+#include"CheckKey.h"
 using namespace preferense;
 
 int main(int argc,const char *argv[]){
@@ -18,9 +19,12 @@ int main(int argc,const char *argv[]){
     sceneMgr.Finalize();
 
     while(ProcessMessage()==0){
+        checkKey.Update();
         ClearDrawScreen();
+
         sceneMgr.Update();
         sceneMgr.Draw();
+
         ScreenFlip();
     }
 

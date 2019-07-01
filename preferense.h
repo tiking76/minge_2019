@@ -5,7 +5,7 @@
 #ifndef INC_2019_MINGE_PREFERENSE_H
 #define INC_2019_MINGE_PREFERENSE_H
 
-namespace preferense{
+namespace preferense {
     constexpr int WINDOW_WIDTH = 640;
     constexpr int WINDOW_HEIGHT = 480;
 }

@@ -6,6 +6,7 @@ CMakeFiles/2019_minge.dir/CheckKey.cpp.o
  /Users/tikisi/WorkSpace/Pandd/2019_minge/CheckKey.h
  /Users/tikisi/WorkSpace/Pandd/2019_minge/SDL2_DxLib.h
 CMakeFiles/2019_minge.dir/Menu.cpp.o
+ /Users/tikisi/WorkSpace/Pandd/2019_minge/CheckKey.h
  /Users/tikisi/WorkSpace/Pandd/2019_minge/Menu.cpp
  /Users/tikisi/WorkSpace/Pandd/2019_minge/Menu.h
  /Users/tikisi/WorkSpace/Pandd/2019_minge/SDL2_DxLib.h
@@ -20,12 +21,14 @@ CMakeFiles/2019_minge.dir/SceneMgr.cpp.o
  /Users/tikisi/WorkSpace/Pandd/2019_minge/SceneMgr.h
  /Users/tikisi/WorkSpace/Pandd/2019_minge/Shoot.h
 CMakeFiles/2019_minge.dir/Shoot.cpp.o
+ /Users/tikisi/WorkSpace/Pandd/2019_minge/CheckKey.h
  /Users/tikisi/WorkSpace/Pandd/2019_minge/SDL2_DxLib.h
  /Users/tikisi/WorkSpace/Pandd/2019_minge/SceneMgr.h
  /Users/tikisi/WorkSpace/Pandd/2019_minge/Shoot.cpp
  /Users/tikisi/WorkSpace/Pandd/2019_minge/Shoot.h
  /Users/tikisi/WorkSpace/Pandd/2019_minge/preferense.h
 CMakeFiles/2019_minge.dir/main.cpp.o
+ /Users/tikisi/WorkSpace/Pandd/2019_minge/CheckKey.h
  /Users/tikisi/WorkSpace/Pandd/2019_minge/SDL2_DxLib.h
  /Users/tikisi/WorkSpace/Pandd/2019_minge/SceneMgr.h
  /Users/tikisi/WorkSpace/Pandd/2019_minge/main.cpp

@@ -123,6 +123,87 @@ depend:
 	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/build
 .PHONY : 2019_minge/fast
 
+CheckKey.o: CheckKey.cpp.o
+
+.PHONY : CheckKey.o
+
+# target to build an object file
+CheckKey.cpp.o:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/CheckKey.cpp.o
+.PHONY : CheckKey.cpp.o
+
+CheckKey.i: CheckKey.cpp.i
+
+.PHONY : CheckKey.i
+
+# target to preprocess a source file
+CheckKey.cpp.i:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/CheckKey.cpp.i
+.PHONY : CheckKey.cpp.i
+
+CheckKey.s: CheckKey.cpp.s
+
+.PHONY : CheckKey.s
+
+# target to generate assembly for a file
+CheckKey.cpp.s:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/CheckKey.cpp.s
+.PHONY : CheckKey.cpp.s
+
+Menu.o: Menu.cpp.o
+
+.PHONY : Menu.o
+
+# target to build an object file
+Menu.cpp.o:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/Menu.cpp.o
+.PHONY : Menu.cpp.o
+
+Menu.i: Menu.cpp.i
+
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
+Player.o: Player.cpp.o
+
+.PHONY : Player.o
+
+# target to build an object file
+Player.cpp.o:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/Player.cpp.o
+.PHONY : Player.cpp.o
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/Player.cpp.s
+.PHONY : Player.cpp.s
+
 SDL2_DxLib.o: SDL2_DxLib.cpp.o
 
 .PHONY : SDL2_DxLib.o
@@ -149,6 +230,60 @@ SDL2_DxLib.s: SDL2_DxLib.cpp.s
 SDL2_DxLib.cpp.s:
 	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/SDL2_DxLib.cpp.s
 .PHONY : SDL2_DxLib.cpp.s
+
+SceneMgr.o: SceneMgr.cpp.o
+
+.PHONY : SceneMgr.o
+
+# target to build an object file
+SceneMgr.cpp.o:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/SceneMgr.cpp.o
+.PHONY : SceneMgr.cpp.o
+
+SceneMgr.i: SceneMgr.cpp.i
+
+.PHONY : SceneMgr.i
+
+# target to preprocess a source file
+SceneMgr.cpp.i:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/SceneMgr.cpp.i
+.PHONY : SceneMgr.cpp.i
+
+SceneMgr.s: SceneMgr.cpp.s
+
+.PHONY : SceneMgr.s
+
+# target to generate assembly for a file
+SceneMgr.cpp.s:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/SceneMgr.cpp.s
+.PHONY : SceneMgr.cpp.s
+
+Shoot.o: Shoot.cpp.o
+
+.PHONY : Shoot.o
+
+# target to build an object file
+Shoot.cpp.o:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/Shoot.cpp.o
+.PHONY : Shoot.cpp.o
+
+Shoot.i: Shoot.cpp.i
+
+.PHONY : Shoot.i
+
+# target to preprocess a source file
+Shoot.cpp.i:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/Shoot.cpp.i
+.PHONY : Shoot.cpp.i
+
+Shoot.s: Shoot.cpp.s
+
+.PHONY : Shoot.s
+
+# target to generate assembly for a file
+Shoot.cpp.s:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/Shoot.cpp.s
+.PHONY : Shoot.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +321,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 2019_minge"
+	@echo "... CheckKey.o"
+	@echo "... CheckKey.i"
+	@echo "... CheckKey.s"
+	@echo "... Menu.o"
+	@echo "... Menu.i"
+	@echo "... Menu.s"
+	@echo "... Player.o"
+	@echo "... Player.i"
+	@echo "... Player.s"
 	@echo "... SDL2_DxLib.o"
 	@echo "... SDL2_DxLib.i"
 	@echo "... SDL2_DxLib.s"
+	@echo "... SceneMgr.o"
+	@echo "... SceneMgr.i"
+	@echo "... SceneMgr.s"
+	@echo "... Shoot.o"
+	@echo "... Shoot.i"
+	@echo "... Shoot.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

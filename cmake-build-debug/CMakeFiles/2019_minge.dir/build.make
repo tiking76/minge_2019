@@ -83,19 +83,107 @@ CMakeFiles/2019_minge.dir/SDL2_DxLib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2019_minge.dir/SDL2_DxLib.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tikisi/WorkSpace/Pandd/2019_minge/SDL2_DxLib.cpp -o CMakeFiles/2019_minge.dir/SDL2_DxLib.cpp.s
 
+<<<<<<< HEAD
 # Object files for target 2019_minge
 2019_minge_OBJECTS = \
 "CMakeFiles/2019_minge.dir/main.cpp.o" \
 "CMakeFiles/2019_minge.dir/SDL2_DxLib.cpp.o"
+=======
+CMakeFiles/2019_minge.dir/SceneMgr.cpp.o: CMakeFiles/2019_minge.dir/flags.make
+CMakeFiles/2019_minge.dir/SceneMgr.cpp.o: ../SceneMgr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tikisi/WorkSpace/Pandd/2019_minge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/2019_minge.dir/SceneMgr.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2019_minge.dir/SceneMgr.cpp.o -c /Users/tikisi/WorkSpace/Pandd/2019_minge/SceneMgr.cpp
+
+CMakeFiles/2019_minge.dir/SceneMgr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2019_minge.dir/SceneMgr.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tikisi/WorkSpace/Pandd/2019_minge/SceneMgr.cpp > CMakeFiles/2019_minge.dir/SceneMgr.cpp.i
+
+CMakeFiles/2019_minge.dir/SceneMgr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2019_minge.dir/SceneMgr.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tikisi/WorkSpace/Pandd/2019_minge/SceneMgr.cpp -o CMakeFiles/2019_minge.dir/SceneMgr.cpp.s
+
+CMakeFiles/2019_minge.dir/Menu.cpp.o: CMakeFiles/2019_minge.dir/flags.make
+CMakeFiles/2019_minge.dir/Menu.cpp.o: ../Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tikisi/WorkSpace/Pandd/2019_minge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/2019_minge.dir/Menu.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2019_minge.dir/Menu.cpp.o -c /Users/tikisi/WorkSpace/Pandd/2019_minge/Menu.cpp
+
+CMakeFiles/2019_minge.dir/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2019_minge.dir/Menu.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tikisi/WorkSpace/Pandd/2019_minge/Menu.cpp > CMakeFiles/2019_minge.dir/Menu.cpp.i
+
+CMakeFiles/2019_minge.dir/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2019_minge.dir/Menu.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tikisi/WorkSpace/Pandd/2019_minge/Menu.cpp -o CMakeFiles/2019_minge.dir/Menu.cpp.s
+
+CMakeFiles/2019_minge.dir/Shoot.cpp.o: CMakeFiles/2019_minge.dir/flags.make
+CMakeFiles/2019_minge.dir/Shoot.cpp.o: ../Shoot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tikisi/WorkSpace/Pandd/2019_minge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/2019_minge.dir/Shoot.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2019_minge.dir/Shoot.cpp.o -c /Users/tikisi/WorkSpace/Pandd/2019_minge/Shoot.cpp
+
+CMakeFiles/2019_minge.dir/Shoot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2019_minge.dir/Shoot.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tikisi/WorkSpace/Pandd/2019_minge/Shoot.cpp > CMakeFiles/2019_minge.dir/Shoot.cpp.i
+
+CMakeFiles/2019_minge.dir/Shoot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2019_minge.dir/Shoot.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tikisi/WorkSpace/Pandd/2019_minge/Shoot.cpp -o CMakeFiles/2019_minge.dir/Shoot.cpp.s
+
+CMakeFiles/2019_minge.dir/CheckKey.cpp.o: CMakeFiles/2019_minge.dir/flags.make
+CMakeFiles/2019_minge.dir/CheckKey.cpp.o: ../CheckKey.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tikisi/WorkSpace/Pandd/2019_minge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/2019_minge.dir/CheckKey.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2019_minge.dir/CheckKey.cpp.o -c /Users/tikisi/WorkSpace/Pandd/2019_minge/CheckKey.cpp
+
+CMakeFiles/2019_minge.dir/CheckKey.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2019_minge.dir/CheckKey.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tikisi/WorkSpace/Pandd/2019_minge/CheckKey.cpp > CMakeFiles/2019_minge.dir/CheckKey.cpp.i
+
+CMakeFiles/2019_minge.dir/CheckKey.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2019_minge.dir/CheckKey.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tikisi/WorkSpace/Pandd/2019_minge/CheckKey.cpp -o CMakeFiles/2019_minge.dir/CheckKey.cpp.s
+
+CMakeFiles/2019_minge.dir/Player.cpp.o: CMakeFiles/2019_minge.dir/flags.make
+CMakeFiles/2019_minge.dir/Player.cpp.o: ../Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tikisi/WorkSpace/Pandd/2019_minge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/2019_minge.dir/Player.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2019_minge.dir/Player.cpp.o -c /Users/tikisi/WorkSpace/Pandd/2019_minge/Player.cpp
+
+CMakeFiles/2019_minge.dir/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2019_minge.dir/Player.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tikisi/WorkSpace/Pandd/2019_minge/Player.cpp > CMakeFiles/2019_minge.dir/Player.cpp.i
+
+CMakeFiles/2019_minge.dir/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2019_minge.dir/Player.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tikisi/WorkSpace/Pandd/2019_minge/Player.cpp -o CMakeFiles/2019_minge.dir/Player.cpp.s
+
+# Object files for target 2019_minge
+2019_minge_OBJECTS = \
+"CMakeFiles/2019_minge.dir/main.cpp.o" \
+"CMakeFiles/2019_minge.dir/SDL2_DxLib.cpp.o" \
+"CMakeFiles/2019_minge.dir/SceneMgr.cpp.o" \
+"CMakeFiles/2019_minge.dir/Menu.cpp.o" \
+"CMakeFiles/2019_minge.dir/Shoot.cpp.o" \
+"CMakeFiles/2019_minge.dir/CheckKey.cpp.o" \
+"CMakeFiles/2019_minge.dir/Player.cpp.o"
+>>>>>>> Initizlize
 
 # External object files for target 2019_minge
 2019_minge_EXTERNAL_OBJECTS =
 
 2019_minge: CMakeFiles/2019_minge.dir/main.cpp.o
 2019_minge: CMakeFiles/2019_minge.dir/SDL2_DxLib.cpp.o
+<<<<<<< HEAD
 2019_minge: CMakeFiles/2019_minge.dir/build.make
 2019_minge: CMakeFiles/2019_minge.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tikisi/WorkSpace/Pandd/2019_minge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 2019_minge"
+=======
+2019_minge: CMakeFiles/2019_minge.dir/SceneMgr.cpp.o
+2019_minge: CMakeFiles/2019_minge.dir/Menu.cpp.o
+2019_minge: CMakeFiles/2019_minge.dir/Shoot.cpp.o
+2019_minge: CMakeFiles/2019_minge.dir/CheckKey.cpp.o
+2019_minge: CMakeFiles/2019_minge.dir/Player.cpp.o
+2019_minge: CMakeFiles/2019_minge.dir/build.make
+2019_minge: CMakeFiles/2019_minge.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tikisi/WorkSpace/Pandd/2019_minge/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable 2019_minge"
+>>>>>>> Initizlize
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/2019_minge.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

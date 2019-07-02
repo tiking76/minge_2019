@@ -218,6 +218,15 @@ CMAKE_STRIP:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a file.
+GLUT_INCLUDE_DIR:PATH=/System/Library/Frameworks/GLUT.framework/Headers
+
+//Cocoa framework for OSX
+GLUT_cocoa_LIBRARY:FILEPATH=/System/Library/Frameworks/Cocoa.framework
+
+//GLUT library for OSX
+GLUT_glut_LIBRARY:FILEPATH=/System/Library/Frameworks/GLUT.framework
+
 //Include for OpenGL on OS X
 OPENGL_INCLUDE_DIR:PATH=/System/Library/Frameworks/OpenGL.framework
 
@@ -227,17 +236,32 @@ OPENGL_gl_LIBRARY:FILEPATH=/System/Library/Frameworks/OpenGL.framework
 //GLU library for OS X (usually same as OpenGL library)
 OPENGL_glu_LIBRARY:FILEPATH=/System/Library/Frameworks/OpenGL.framework
 
+//Path to a library.
+OenGL:FILEPATH=/System/Library/Frameworks/OpenGL.framework
+
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
+
+//Path to a library.
+SDL2:FILEPATH=/Library/Frameworks/SDL2.framework
 
 //The directory containing a CMake configuration file for SDL2.
 SDL2_DIR:PATH=/usr/local/lib/cmake/SDL2
 
+//Path to a library.
+SDL2_image:FILEPATH=/Library/Frameworks/SDL2_image.framework
+
 //The directory containing a CMake configuration file for SDL2_image.
 SDL2_image_DIR:PATH=/usr/local/lib/cmake/SDL2_image
 
+//Path to a library.
+SDL2_mixer:FILEPATH=/Library/Frameworks/SDL2_mixer.framework
+
 //The directory containing a CMake configuration file for SDL2_mixer.
 SDL2_mixer_DIR:PATH=/usr/local/lib/cmake/SDL2_mixer
+
+//Path to a library.
+SDL2_ttf:FILEPATH=/Library/Frameworks/SDL2_ttf.framework
 
 //The directory containing a CMake configuration file for SDL2_ttf.
 SDL2_ttf_DIR:PATH=/usr/local/lib/cmake/SDL2_ttf
@@ -382,8 +406,16 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding GLUT
+FIND_PACKAGE_MESSAGE_DETAILS_GLUT:INTERNAL=[/System/Library/Frameworks/GLUT.framework][/System/Library/Frameworks/GLUT.framework/Headers][v()]
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/System/Library/Frameworks/OpenGL.framework][/System/Library/Frameworks/OpenGL.framework][c ][v()]
+//ADVANCED property for variable: GLUT_INCLUDE_DIR
+GLUT_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLUT_cocoa_LIBRARY
+GLUT_cocoa_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLUT_glut_LIBRARY
+GLUT_glut_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_INCLUDE_DIR
 OPENGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_gl_LIBRARY

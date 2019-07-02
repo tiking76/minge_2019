@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/2019_minge.dir/Menu.cpp.o"
   "CMakeFiles/2019_minge.dir/Shoot.cpp.o"
   "CMakeFiles/2019_minge.dir/CheckKey.cpp.o"
+  "CMakeFiles/2019_minge.dir/Player.cpp.o"
   "2019_minge.pdb"
   "2019_minge"
 )

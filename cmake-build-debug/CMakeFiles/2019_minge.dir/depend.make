@@ -12,15 +12,26 @@ CMakeFiles/2019_minge.dir/Menu.cpp.o: ../SDL2_DxLib.h
 CMakeFiles/2019_minge.dir/Menu.cpp.o: ../SceneMgr.h
 CMakeFiles/2019_minge.dir/Menu.cpp.o: ../preferense.h
 
+CMakeFiles/2019_minge.dir/Player.cpp.o: ../Character.h
+CMakeFiles/2019_minge.dir/Player.cpp.o: ../CheckKey.h
+CMakeFiles/2019_minge.dir/Player.cpp.o: ../Player.cpp
+CMakeFiles/2019_minge.dir/Player.cpp.o: ../Player.h
+CMakeFiles/2019_minge.dir/Player.cpp.o: ../SDL2_DxLib.h
+
 CMakeFiles/2019_minge.dir/SDL2_DxLib.cpp.o: ../SDL2_DxLib.cpp
 CMakeFiles/2019_minge.dir/SDL2_DxLib.cpp.o: ../SDL2_DxLib.h
 
+CMakeFiles/2019_minge.dir/SceneMgr.cpp.o: ../Character.h
 CMakeFiles/2019_minge.dir/SceneMgr.cpp.o: ../Menu.h
+CMakeFiles/2019_minge.dir/SceneMgr.cpp.o: ../Player.h
+CMakeFiles/2019_minge.dir/SceneMgr.cpp.o: ../SDL2_DxLib.h
 CMakeFiles/2019_minge.dir/SceneMgr.cpp.o: ../SceneMgr.cpp
 CMakeFiles/2019_minge.dir/SceneMgr.cpp.o: ../SceneMgr.h
 CMakeFiles/2019_minge.dir/SceneMgr.cpp.o: ../Shoot.h
 
+CMakeFiles/2019_minge.dir/Shoot.cpp.o: ../Character.h
 CMakeFiles/2019_minge.dir/Shoot.cpp.o: ../CheckKey.h
+CMakeFiles/2019_minge.dir/Shoot.cpp.o: ../Player.h
 CMakeFiles/2019_minge.dir/Shoot.cpp.o: ../SDL2_DxLib.h
 CMakeFiles/2019_minge.dir/Shoot.cpp.o: ../SceneMgr.h
 CMakeFiles/2019_minge.dir/Shoot.cpp.o: ../Shoot.cpp

@@ -1,5 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/tikisi/WorkSpace/Pandd/2019_minge
 -- Configuring done
-Warning: Source file "/Users/tikisi/WorkSpace/Pandd/2019_minge/CheckKey.cpp" is listed multiple times for target "2019_minge".
 -- Generating done
 -- Build files have been written to: /Users/tikisi/WorkSpace/Pandd/2019_minge/cmake-build-debug

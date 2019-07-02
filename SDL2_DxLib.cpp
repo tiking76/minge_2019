@@ -9,7 +9,6 @@
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_mixer.h>
 
-#define GL_GLEXT_PROTOTYPES
 
 #include <SDL2/SDL_opengl.h>
 #include <SDL2/SDL_opengl_glext.h>
@@ -1678,6 +1677,13 @@ int DrawExtendGraph(int x1, int y1, int x2, int y2, int graph, int trans) {
 
     glDisable(GL_TEXTURE_2D);
     glDisable(GL_BLEND);
+
+    /*rect.x = x1;
+    rect.y = y1;
+    rect.w = x2 - x1;
+    rect.h = y2 - y1;
+
+    SDL_RenderCopy(Screen.renderer, target->second->texture, NULL, &rect);*/
 
     return 0;
 }

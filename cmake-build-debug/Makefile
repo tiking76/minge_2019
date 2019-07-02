@@ -177,6 +177,33 @@ Menu.cpp.s:
 	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/Menu.cpp.s
 .PHONY : Menu.cpp.s
 
+Player.o: Player.cpp.o
+
+.PHONY : Player.o
+
+# target to build an object file
+Player.cpp.o:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/Player.cpp.o
+.PHONY : Player.cpp.o
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) -f CMakeFiles/2019_minge.dir/build.make CMakeFiles/2019_minge.dir/Player.cpp.s
+.PHONY : Player.cpp.s
+
 SDL2_DxLib.o: SDL2_DxLib.cpp.o
 
 .PHONY : SDL2_DxLib.o
@@ -300,6 +327,9 @@ help:
 	@echo "... Menu.o"
 	@echo "... Menu.i"
 	@echo "... Menu.s"
+	@echo "... Player.o"
+	@echo "... Player.i"
+	@echo "... Player.s"
 	@echo "... SDL2_DxLib.o"
 	@echo "... SDL2_DxLib.i"
 	@echo "... SDL2_DxLib.s"

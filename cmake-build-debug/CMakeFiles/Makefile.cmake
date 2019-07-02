@@ -23,9 +23,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/Compiler/Clang.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/Compiler/GNU.cmake"
-  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/FindOpenGL.cmake"
-  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake"
-  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/FindPackageMessage.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/Platform/Apple-AppleClang-C.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/Platform/Apple-AppleClang-CXX.cmake"
@@ -40,10 +37,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.14.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeSystem.cmake"
-  "/usr/local/lib/cmake/SDL2/sdl2-config.cmake"
-  "/usr/local/lib/cmake/SDL2_image/SDL2_imageConfig.cmake"
-  "/usr/local/lib/cmake/SDL2_mixer/SDL2_mixerConfig.cmake"
-  "/usr/local/lib/cmake/SDL2_ttf/SDL2_ttfConfig.cmake"
   )
 
 # The corresponding makefile is:

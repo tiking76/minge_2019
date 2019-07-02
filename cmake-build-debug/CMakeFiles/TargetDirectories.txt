@@ -1,0 +1,3 @@
+/Users/tikisi/WorkSpace/Pandd/2019_minge/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tikisi/WorkSpace/Pandd/2019_minge/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tikisi/WorkSpace/Pandd/2019_minge/cmake-build-debug/CMakeFiles/2019_minge.dir

@@ -29,6 +29,6 @@ void Player::Draw() {
     if (graph == -1) {
         DrawBox(0, 0, 100, 100, GetColor(255, 255, 255), true);
     }
-    DrawExtendGraph(posX, posY, posX + 50, posY + 50, graph, true);
+    DrawGraph(posX, posY, graph, true);
 
 }
